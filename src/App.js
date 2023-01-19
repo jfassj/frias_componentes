@@ -17,8 +17,8 @@ function App() {
   return (
     <div className="App">
       <Button as="a" href="https://utd.edu.mx" target="_blank">UTD</Button>
-      <Button as="b" href="https://github.com/jfassj" target="_blank">GITHUB</Button>
-      <Button as="c" href="https://twitter.com/jfassj" target="_blank">TWITTER</Button>
+      <Button as="a" href="https://github.com/jfassj" target="_blank">GITHUB</Button>
+      <Button as="a" href="https://twitter.com/jfassj" target="_blank">TWITTER</Button>
     </div>
   );
 }
