@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import styled from 'styled-components';
+
+
+const Button = styled.button`
+  display: inline-block;
+  color: palevioletred;
+  font-size: 1em;
+  margin: 1em;
+  padding: 0.25em 1em;
+  border: 2px solid palevioletred;
+  border-radius: 3px;
+  display: block;
+`; 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Button as="a" href="https://utd.edu.mx" target="_blank">UTD</Button>
+      <Button as="b" href="https://github.com/jfassj" target="_blank">GITHUB</Button>
+      <Button as="c" href="https://twitter.com/jfassj" target="_blank">TWITTER</Button>
     </div>
   );
 }
