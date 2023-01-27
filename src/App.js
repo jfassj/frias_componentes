@@ -16,6 +16,7 @@ const Button = styled.button`
 function App() {
   return (
     <div className="App">
+      <h1>Jared Emiliano Frias Aguilar</h1>
       <Button as="a" href="https://utd.edu.mx" target="_blank">UTD</Button>
       <Button as="a" href="https://github.com/jfassj" target="_blank">GITHUB</Button>
       <Button as="a" href="https://twitter.com/jfassj" target="_blank">TWITTER</Button>
