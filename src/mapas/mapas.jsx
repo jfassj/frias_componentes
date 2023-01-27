@@ -8,9 +8,9 @@ export default class Maps extends Component{
                 <GoogleMaps
                     apiKey={"AIzaSyD6bLODTa33MIYUrrAf-ndDlvN-sRQHHx0"}
                     style={{height: "400px", width: "100%"}}
-                    zoom={6}
+                    zoom={15}
                     center={{lat: 23.990824044350262, lng: -104.61766663068158}}
-                    />
+                    markers={{lat: 23.990824044350262, lng: -104.61766663068158}}/>
             </div>
         )
     }
